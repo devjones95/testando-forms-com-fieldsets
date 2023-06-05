@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários no HTML</title>
+</head>
+<body>
+   
+  <h2>Formulário de Inscrição</h2>
+    <fieldset>
+          <legend><strong>Dados Pessoais</strong></legend>
+      <div>
+          <form autocomplete="on" name="Subscription" action="http://meusite.com.br/signup" method="post">
+            Nome: <input type="text" name="name"><br>
+            Idade: <input type="number" name="age" min="16" max="65"><br>
+            Data de Nascimento: <input type="date" name="date" id="date"><br>
+      </div>  
+    </fieldset>
+
+    <fieldset>
+        <legend><strong>Dados do Login</strong></legend>
+          <div>
+            Email: <input type="email" name="email"><br>
+            Senha: <input type="password" name="password"><br>
+          </div>
+    </fieldset>
+
+    <fieldset>
+      <legend><strong>Informações Extras</strong></legend>
+        <div>
+          Nível de Inglês: Básico<input type="range">Avançado<br>
+          ULR do LinkedIn: <input type="url" name="urlLinkedin"><br>
+          Etnia:<br>
+          Branco: <input type="checkbox" name="skinColorbranco" id="skinColorbranco">
+          Negro: <input type="checkbox" name="skinColornegro" id="skinColornegro">
+          Pardo: <input type="checkbox" name="skinColorpardo" id="skinColorpardo">
+          Amarelo: <input type="checkbox" name="skinColoramarelo" id="skinColoramarelo">
+          Indígena: <input type="checkbox" name="skinColorindigena" id="skinColorindigena"><br>
+            <br>
+        </div>
+    </fieldset>
+
+Anexe seus documentos: <input type="file" name="file" id="file"><br>
+<hr>
+
+<button type="reset">Limpar respostas</button><br>
+<button type="submit">Enviar formulário</button><br>
+
+    </form>
+
+
+
+
+
+
+</body>
+</html>
